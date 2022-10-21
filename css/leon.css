@@ -213,7 +213,8 @@ body {
 .featuers {
     padding-top:var(--section-padding);
     padding-bottom:var(--section-padding);
-    background-color:var(--section-background)
+    background-color:var(--section-background);
+    overflow: hidden;
 }
 
 .featuers .container {
@@ -252,6 +253,7 @@ body {
 .services {
     padding-top:var(--section-padding);
     padding-bottom:var(--section-padding);
+    overflow: hidden;
 }
 
 .services .services-content {
@@ -324,7 +326,8 @@ body {
 .portfolio {
         padding-top:var(--section-padding);
         padding-bottom:var(--section-padding);
-        background-color:var(--section-background)
+        background-color:var(--section-background);
+        overflow: hidden;
 }
 
 .portfolio .portfolio-content {
@@ -360,6 +363,7 @@ body {
 .about {
     padding-top:var(--section-padding);
     padding-bottom:calc(var(--section-padding) + 60px );
+    overflow: hidden;
 }
 
 .about .about-content {
@@ -446,7 +450,8 @@ color: #777;
 .contact {
     padding-top:var(--section-padding);
     padding-bottom:var(--section-padding);
-    background-color:var(--section-background)
+    background-color:var(--section-background);
+    overflow: hidden;
 }
 
 .contact .info {
@@ -456,7 +461,7 @@ color: #777;
 }
 
 .contact .info .label {
-    font-size: 25px;
+    font-size: 23px;
     font-weight: 800;
     color: var(--main-color);
     letter-spacing: -2px;
@@ -474,7 +479,7 @@ color: #777;
 
 @media (max-width:767px) {
     .contact .info .link {
-        font-size: 20px;
+        font-size: 18px;
     }
 }
 
@@ -482,11 +487,13 @@ color: #777;
     display: flex;
     justify-content: center;
     margin-top: 20px;
-    font-size: 20px;
+    font-size: 15px;
+    
 }
 
-.contact .info .social i {
-    margin-left: 20px;
+
+.contact .info .social a {
+    margin-left: 15px;
     color: var(--secondry-color);
 }
 
@@ -496,6 +503,7 @@ color: #777;
     background-color: var(--secondry-color);
     padding: 30px 10px;
     font-size: 18px;
+    overflow: hidden;
 }
 
 .footer span {

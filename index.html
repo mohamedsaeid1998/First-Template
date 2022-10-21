@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" >
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 <div class="header">
@@ -36,12 +36,12 @@
 </div>
 <div class="landing">
     <div class="intro-text">
-        <h1>hello there</h1>
-        <p>we are leon - super creative & minimal agency web templete </p>
+        <h1 data-aos="fade-up">hello there</h1>
+        <p data-aos="fade-down">we are leon - super creative & minimal agency web templete </p>
     </div>
 </div>
 <div class="featuers">
-    <div class="container">
+    <div class="container" data-aos="fade-down">
         <div class="feat">
             <i class="fas fa-magic fa-3x"></i>
             <h3>tell us your idea</h3>
@@ -59,10 +59,10 @@
         </div>
     </div>
 </div>
-<div class="services" id="services">
+<div class="services" id="services" data-aos="zoom-in-down">
     <div class="container">
-        <h2 class="special-heading">Services</h2>
-        <p>Don't be busy, be productive</p>
+        <h2 class="special-heading" data-aos="fade-up">Services</h2>
+        <p data-aos="fade-down">Don't be busy, be productive</p>
         <div class="services-content">
             <div class="col">
                 <div class="srv">
@@ -110,9 +110,9 @@
 </div>
 <div class="portfolio" id="portfolio">
     <div class="container">
-        <h2 class="special-heading">Portfolio</h2>
-        <p>If you do it right, it will last forever.</p>
-        <div class="portfolio-content">
+        <h2 class="special-heading" data-aos="fade-up">Portfolio</h2>
+        <p data-aos="fade-down">If you do it right, it will last forever.</p>
+        <div class="portfolio-content" data-aos="flip-up">
             <div class="card">
                 <img src="image/ss.jpg">
                 <div class="info">
@@ -137,11 +137,11 @@
         </div>
     </div>
 </div>
-<div class="about">
+<div class="about" id="About">
     <div class="container">
-        <h2 class="special-heading">About</h2>
-        <p>Less is more work.</p>
-        <div class="about-content">
+        <h2 class="special-heading" data-aos="fade-up">About</h2>
+        <p data-aos="fade-down">Less is more work.</p>
+        <div class="about-content" data-aos="zoom-out">
             <div class="image">
                 <img src="image/cc.jpg" alt="">
             </div>
@@ -155,22 +155,32 @@
 </div>
 <div class="contact" id="contact">
     <div class="container">
-        <h2 class="special-heading">Contact</h2>
-        <p>We are born to create</p>
+            <h2 class="special-heading" data-aos="fade-up">Contact</h2>
+            <p data-aos="fade-down">We are born to create</p>
         <div class="info">
-            <p class="label">We are born to create</p>
-            <a href="mailto:msmma19998@gmail.com?subject=contact" class="link"> msmma19998@gmail.com</a>
-            <div class="social">
+            <p class="label">Feel free to drop us a line at:</p>
+            <a href="mailto:msmma19998@gmail.com?subject=contact" class="link" data-aos="zoom-out-left"> msmma19998@gmail.com</a>
+            <div class="social" data-aos="fade-right">
                 Find Us On Social Networks
-                <i class="fab fa-youtube"></i>
-                <i class="fab fa-facebook-f"></i>
-                <i class="fab fa-twitter"></i>
+                <a href="https://www.youtube.com/" target="_blank">
+                    <i  class="fab fa-youtube"></i>
+                </a>
+                <a href="https://www.facebook.com/moahmedsaeid.mohamed" target="_blank">
+                    <i  class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://github.com/mohamedsaeid1998/First-Template" target="_blank">
+                    <i  class="fa-brands fa-github"></i>
+                </a>
             </div>
         </div>
     </div>
 </div>
 <div class="footer">
-    &copy; 2021 <span>Leon</span> All Right Reserved
+    &copy; 2021 <span >Leon</span> All Right Reserved
 </div>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init({duration: 1800});
+</script>
 </body>
 </html>
